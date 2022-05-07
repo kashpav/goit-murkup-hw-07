@@ -339,17 +339,17 @@ ol {
 
 /* ---team section--- */
 
-.masters-soc-list {
+.soc-list {
     display: flex;
     justify-content: center;
     margin-top: 16px;
 }
 
-.masters-soc-item+.masters-soc-item {
+.soc-list__item+.soc-list__item {
     margin-left: 10px;
 }
 
-.masters-soc-link {
+.soc-list__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -363,13 +363,13 @@ ol {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.masters-soc-icon {
+.soc-list__icon {
     display: flex;
     fill: currentColor;
 }
 
-.masters-soc-link:hover,
-.masters-soc-link:focus {
+.soc-list__link:hover,
+.soc-list__link:focus {
     transition-property: color, background-color;
     background-color: var(--accent-color);
     color: #FFFFFF;
@@ -379,7 +379,7 @@ ol {
     display: block;
 }
 
-.list-photos {
+.team-list {
     display: flex;
     justify-content: space-between;
 }
@@ -388,14 +388,14 @@ ol {
     background-color: var(--team-background-color);
 }
 
-.team-info {
+.team-card {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.team-photo {
+.team-list__photo {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -412,7 +412,7 @@ ol {
     margin-bottom: 50px;
 }
 
-.team-name {
+.team-card__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -422,7 +422,7 @@ ol {
     margin-bottom: 10px;
 }
 
-.team-duty {
+.team-card__duty {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -430,7 +430,7 @@ ol {
     color: var(--text-color);
 }
 
-.masters-soc-item+.masters-soc-item {
+.soc-list__item+.soc-list__item {
     margin-left: 10px;
 }
 
@@ -867,6 +867,8 @@ textarea {
     border-radius: 2px;
     display: flex;
     margin-right: 5px;
+    align-items: center;
+    justify-content: center;
     transition-duration: 250ms;
     transition-property: border background-color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
