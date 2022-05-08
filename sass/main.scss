@@ -1,5 +1,14 @@
 @import "./utils/roots";
-@import "./utils/settings";
+@import "./utils/common";
+@import "./utils/hidden";
+////////////////////////////
+@import "./components/contacts";
+@import "./components/logo";
+@import "./components/modal";
+@import "./components/_soc-link";
+@import "./components/form-subscription";
+@import "./components/container";
+/////////////////////////
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/about_us";
@@ -8,7 +17,3 @@
 @import "./layout/clients";
 @import "./layout/footer";
 @import "./layout/portfolio";
-@import "./components/contacts";
-@import "./components/logo";
-@import "./components/modal";
-@import "./components/form-subscription"
