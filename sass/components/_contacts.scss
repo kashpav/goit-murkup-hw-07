@@ -1,0 +1,21 @@
+.contacts__number {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__number:hover,
+.contacts__number:focus {
+    color: var(--accent-color);
+}
