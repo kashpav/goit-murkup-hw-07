@@ -5,19 +5,19 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    
-}
-
-.main-logo__part {
-    color: var(--accent-color);
-}
-
-.main-logo--black {
+    &__part {
+            color: var(--accent-color);
+    }
+    &--black {
     color: #000000;
     margin-right: 93px;
-}
-
-.main-logo--white {
+    }
+    &--white {
     color: var(--second-header-color);
     margin-bottom: 20px;
+    }
 }
+
+
+
+

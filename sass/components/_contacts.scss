@@ -13,9 +13,9 @@
     transition-duration: 250ms;
     transition-property: color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+            color: var(--accent-color);
+        }
 }
 
-.contacts__number:hover,
-.contacts__number:focus {
-    color: var(--accent-color);
-}
