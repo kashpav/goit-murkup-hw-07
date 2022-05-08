@@ -1,0 +1,46 @@
+.icon-space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--team-background-color);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.advantages-list {
+    display: flex;
+}
+
+.advantage-item {
+    display: block;
+    width: 270px;
+}
+
+.advantage-item+.advantage-item {
+    margin-left: 30px;
+}
+
+.advantage-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-color);
+    margin-bottom: 10px;
+}
+
+.advantage-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
