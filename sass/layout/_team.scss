@@ -2,20 +2,24 @@
     display: flex;
     justify-content: center;
     margin-top: 16px;
-    &__item+&__item {
-            margin-left: 10px;
+}
+
+.soc-list__item {
+    &+& { 
+        margin-left: 10px;
         }
-    &__link--grey {
-        fill: #AFB1B8;
-        }
-    &__link:hover,
-    &__link:focus {
+}
+    
+.soc-list__link--grey {
+    fill: #AFB1B8;
+}
+
+.soc-list__link {
+    &:hover,
+    &:focus {
             background-color: var(--accent-color);
             fill: #FFFFFF;
         }
-    &__item+&__item {
-    margin-left: 10px;
-}
 }
 
 .face {
